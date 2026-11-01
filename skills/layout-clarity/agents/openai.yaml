@@ -1,0 +1,4 @@
+interface:
+  display_name: "Layout Clarity"
+  short_description: "Let layout explain; keep only useful UI copy"
+  default_prompt: "Use $layout-clarity to improve this interface without hiding essential context."
