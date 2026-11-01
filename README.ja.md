@@ -1,8 +1,11 @@
-[English](README.md) | **日本語**
-
-![Layout Clarity — 意味を残し、ノイズを減らす](assets/header.svg)
-
-# Layout Clarity
+<p align="center">
+  <a href="README.md"><img src="assets/language-en.svg" alt="English" width="92" height="32"></a>
+  <a href="README.ja.md"><img src="assets/language-ja-active.svg" alt="日本語 — 選択中" width="86" height="32"></a>
+</p>
+<p align="center">
+  <img src="assets/header.svg" alt="Layout Clarity — 意味を残し、ノイズを減らす" width="1280">
+</p>
+<h1 align="center">Layout Clarity</h1>
 
 **説明文を足す前に、レイアウトを整える。** UIの重複見出し、意味の薄いスローガン、明白な操作の実況を減らし、階層・余白・まとまり・具体的な操作名で理解しやすくするCodexスキルです。
 

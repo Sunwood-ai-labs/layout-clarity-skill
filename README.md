@@ -1,8 +1,11 @@
-**English** | [日本語](README.ja.md)
-
-![Layout Clarity — keep the meaning, remove the noise](assets/header.svg)
-
-# Layout Clarity
+<p align="center">
+  <a href="README.md"><img src="assets/language-en-active.svg" alt="English — selected" width="92" height="32"></a>
+  <a href="README.ja.md"><img src="assets/language-ja.svg" alt="日本語" width="86" height="32"></a>
+</p>
+<p align="center">
+  <img src="assets/header.svg" alt="Layout Clarity — keep the meaning, remove the noise" width="1280">
+</p>
+<h1 align="center">Layout Clarity</h1>
 
 **Improve the layout before adding another explanation.** A Codex skill for reducing redundant headings, generic slogans, and narration of obvious controls through hierarchy, proximity, grouping, and precise action labels.
 
