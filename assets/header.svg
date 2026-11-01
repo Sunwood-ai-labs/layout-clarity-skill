@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">Layout Clarity</title>
+  <desc id="desc">A Codex skill. A scattered interface resolves into a clear, grouped layout. Keep the meaning. Remove the noise.</desc>
+  <rect width="1280" height="400" rx="24" fill="#F5F1E9"/>
+  <path d="M0 325H1280" stroke="#DED5C8"/>
+  <g fill="#42362F">
+    <rect x="64" y="57" width="12" height="38" rx="3"/>
+    <rect x="82" y="57" width="34" height="12" rx="3"/>
+    <rect x="82" y="75" width="34" height="20" rx="3" fill="#B16D60"/>
+    <text x="64" y="178" font-family="DejaVu Sans, Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-3">Layout Clarity</text>
+    <text x="67" y="230" font-family="DejaVu Sans, Arial, sans-serif" font-size="25">Keep the meaning. Remove the noise.</text>
+    <text x="65" y="367" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" letter-spacing="2">A CODEX SKILL</text>
+  </g>
+  <g transform="translate(759 53)">
+    <rect width="175" height="218" rx="13" fill="#E9E2D7"/>
+    <rect x="20" y="23" width="95" height="12" rx="4" fill="#9F9285"/>
+    <g fill="#C8BCAF">
+      <rect x="20" y="45" width="130" height="6" rx="3"/>
+      <rect x="20" y="59" width="113" height="6" rx="3"/>
+      <rect x="20" y="84" width="70" height="7" rx="3"/>
+      <rect x="20" y="101" width="130" height="6" rx="3"/>
+      <rect x="20" y="126" width="116" height="7" rx="3"/>
+      <rect x="20" y="144" width="130" height="6" rx="3"/>
+      <rect x="20" y="158" width="90" height="6" rx="3"/>
+      <rect x="20" y="181" width="130" height="16" rx="5"/>
+    </g>
+    <path d="M189 109h25m-8-8 9 8-9 8" fill="none" stroke="#B16D60" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="230" width="225" height="218" rx="13" fill="#FFFCF7" stroke="#DED5C8"/>
+    <rect x="250" y="23" width="88" height="12" rx="4" fill="#42362F"/>
+    <rect x="381" y="19" width="52" height="22" rx="6" fill="#B16D60"/>
+    <g fill="#EBE4DA">
+      <rect x="250" y="62" width="183" height="38" rx="7"/>
+      <rect x="250" y="111" width="183" height="38" rx="7"/>
+      <rect x="250" y="160" width="183" height="38" rx="7"/>
+    </g>
+    <g fill="#766557">
+      <rect x="265" y="78" width="100" height="7" rx="3"/>
+      <rect x="265" y="127" width="84" height="7" rx="3"/>
+      <rect x="265" y="176" width="112" height="7" rx="3"/>
+    </g>
+  </g>
+  <text x="1215" y="367" text-anchor="end" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#766557">Hierarchy / Proximity / Purpose</text>
+</svg>

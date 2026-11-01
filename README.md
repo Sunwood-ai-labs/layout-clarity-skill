@@ -1,65 +1,54 @@
+**English** | [日本語](README.ja.md)
+
+![Layout Clarity — keep the meaning, remove the noise](assets/header.svg)
+
 # Layout Clarity
 
-**日本語** | [English](README.en.md)
+**Improve the layout before adding another explanation.** A Codex skill for reducing redundant headings, generic slogans, and narration of obvious controls through hierarchy, proximity, grouping, and precise action labels.
 
-**説明文を足す前に、レイアウトを整える。** UIの重複見出し、意味の薄いスローガン、明白な操作の実況を減らし、階層・余白・まとまり・具体的な操作名で理解しやすくするCodexスキルです。
+[Skill](skills/layout-clarity/SKILL.md) · [Examples](skills/layout-clarity/references/examples.md) · [Evaluation cases](skills/layout-clarity/references/evaluation-cases.md)
 
-[スキル本文](skills/layout-clarity/SKILL.md) · [変換例](skills/layout-clarity/references/examples.md) · [評価ケース](skills/layout-clarity/references/evaluation-cases.md)
+## Keep the meaning, remove duplication
 
-## 何をするか
+This is not a “delete all text” rule. Preserve visible form labels, accessible names, measurement scope, errors and remedies, consequential warnings, legal/safety information, and guidance for unfamiliar choices.
 
-- UIを見て、主操作と情報の関係を整理
-- 不要な説明と、判断に必要な情報を区別
-- レイアウトや操作名で説明できる重複を削減
-- 狭い画面・広い画面・キーボード操作など、実施した範囲を検証
+## Install
 
-**文字を全部消すスキルではありません。** 入力ラベル、単位・期間、エラーの直し方、アクセシビリティ、法的・安全上の説明、初めて使う機能の重要な案内は残します。
+Ask Codex:
 
-## 導入
+> Install skills/layout-clarity from Sunwood-ai-labs/layout-clarity-skill as a skill.
 
-Codexに次のように依頼してください。
+Alternatively, copy `skills/layout-clarity` into the skill directory for your Codex environment (usually `~/.codex/skills/layout-clarity`). Follow that environment's discovery mechanism and use a new session. Cloning this repository alone does not install it into your personal environment.
 
-> Sunwood-ai-labs/layout-clarity-skill の skills/layout-clarity をスキルとしてインストールしてください。
-
-手動の場合は、このリポジトリの `skills/layout-clarity` ディレクトリを、利用環境のCodexスキルディレクトリ（通常 `~/.codex/skills/layout-clarity`）へコピーします。環境固有の読み込み方法に従い、新しいセッションで利用してください。リポジトリをcloneしただけでは個人環境へのインストールは完了しません。
-
-## 使用例
+## Use
 
 ```text
-$layout-clarity このダッシュボードの冗長な説明を整理して。
-必要な数値の条件とアクセシビリティは残して、実装と表示を確認して。
+$layout-clarity Refine this dashboard's redundant copy and hierarchy.
+Preserve important data qualifiers and accessibility, then verify the implementation.
 ```
 
-既存AGENTS.mdへ短く方針を入れる場合の例：
+Optional project-specific AGENTS.md guidance:
 
 ```text
-不要な副見出しや説明の重複を避け、階層・配置・操作名で関係を伝える。
-ただし、判断に必要な条件、入力ラベル、エラー対処、安全・法的説明、
-アクセシビリティの意味は削らない。
+Avoid redundant secondary labels and explanations. Communicate relationships through
+hierarchy, placement, and precise action names. Preserve decision-critical context,
+form labels, error recovery, safety/legal information, and accessibility semantics.
 ```
 
-これは設定を自動変更する命令ではありません。必要なプロジェクトでだけ使ってください。
+Do not treat this snippet as permission to change unrelated project configuration.
 
-## Before / After
-
-| Before | After |
-| --- | --- |
-| Projects / Your projects / Manage all your projects here | Projects + New project + 一覧 |
-| Email + メールアドレスを上の欄に入力してください | Emailのラベルを残し、同じ意味の説明のみ削除 |
-| Revenue + 金額 + ここで売上を確認できます | Revenue + 金額 + 期間・通貨・集計条件 |
-
-## 確認
+## Check the package
 
 ```sh
 python scripts/validate_package.py
 ```
 
-この検査はパッケージ構造とローカル参照を確認します。UIの改善効果を自動証明するものではありません。7つの手動評価ケースを同梱しています。
+This checks package structure and local references, not usability effectiveness. Seven manual evaluation cases are included; use observed behavior rather than a word-count target.
 
-## 着想と権利
+## Inspiration and rights
 
-着想となった投稿： [Zihua（@luinlee）の原投稿](https://x.com/luinlee/status/2113085361836744764)。リンクはユーザーから原投稿として提示されたものです。本文の自動取得はできなかったため、提示されたスクリーンショットを基にしています。
+Inspiration: [the original post by Zihua (@luinlee)](https://x.com/luinlee/status/2113085361836744764). The user identified this as the source. Automated retrieval of the post was unavailable; the supplied screenshot was used as the reference.
 
-公開UIの説明量とレイアウトに関する考え方を、本リポジトリ独自の手順・例・評価ケースへ展開しました。原投稿の全文やスクリーンショットは再配布していません。本人による監修・公認を意味しません。
+The workflow, examples, and evaluation cases here are independently written. The screenshot and full post are not redistributed. No endorsement is implied.
 
-現時点ではライセンスを指定していません。公開されていることだけから再配布等の許諾を推定しないでください。
+No license has been designated yet. Public availability alone should not be interpreted as permission to redistribute.
