@@ -1,8 +1,10 @@
 # Layout Clarity
 
+**日本語** | [English](README.en.md)
+
 **説明文を足す前に、レイアウトを整える。** UIの重複見出し、意味の薄いスローガン、明白な操作の実況を減らし、階層・余白・まとまり・具体的な操作名で理解しやすくするCodexスキルです。
 
-[English](README.en.md) · [スキル本文](skills/layout-clarity/SKILL.md) · [変換例](skills/layout-clarity/references/examples.md) · [評価ケース](skills/layout-clarity/references/evaluation-cases.md)
+[スキル本文](skills/layout-clarity/SKILL.md) · [変換例](skills/layout-clarity/references/examples.md) · [評価ケース](skills/layout-clarity/references/evaluation-cases.md)
 
 ## 何をするか
 
@@ -56,6 +58,8 @@ python scripts/validate_package.py
 
 ## 着想と権利
 
-着想は、ユーザーから提示された Zihua（@luinlee）の2026年10月22日の投稿スクリーンショットです。公開UIの説明量とレイアウトに関する考え方を、本リポジトリ独自の手順・例・評価ケースへ展開しました。原投稿の全文やスクリーンショットは再配布していません。投稿の正確なURLは未確認のため記載していません。本人による監修・公認を意味しません。
+着想となった投稿： [Zihua（@luinlee）の原投稿](https://x.com/luinlee/status/2113085361836744764)。リンクはユーザーから原投稿として提示されたものです。本文の自動取得はできなかったため、提示されたスクリーンショットを基にしています。
+
+公開UIの説明量とレイアウトに関する考え方を、本リポジトリ独自の手順・例・評価ケースへ展開しました。原投稿の全文やスクリーンショットは再配布していません。本人による監修・公認を意味しません。
 
 現時点ではライセンスを指定していません。公開されていることだけから再配布等の許諾を推定しないでください。

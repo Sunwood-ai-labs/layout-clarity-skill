@@ -1,8 +1,10 @@
 # Layout Clarity
 
+[日本語](README.md) | **English**
+
 **Improve the layout before adding another explanation.** A Codex skill for reducing redundant headings, generic slogans, and narration of obvious controls through hierarchy, proximity, grouping, and precise action labels.
 
-[日本語](README.md) · [Skill](skills/layout-clarity/SKILL.md) · [Examples](skills/layout-clarity/references/examples.md) · [Evaluation cases](skills/layout-clarity/references/evaluation-cases.md)
+[Skill](skills/layout-clarity/SKILL.md) · [Examples](skills/layout-clarity/references/examples.md) · [Evaluation cases](skills/layout-clarity/references/evaluation-cases.md)
 
 ## Keep the meaning, remove duplication
 
@@ -43,6 +45,8 @@ This checks package structure and local references, not usability effectiveness.
 
 ## Inspiration and rights
 
-Inspired by a user-provided screenshot of a 22 October 2026 post by Zihua (@luinlee). The workflow, examples, and evaluation cases here are independently written. The screenshot and full post are not redistributed. The exact post URL has not been verified and is not invented here. No endorsement is implied.
+Inspiration: [the original post by Zihua (@luinlee)](https://x.com/luinlee/status/2113085361836744764). The user identified this as the source. Automated retrieval of the post was unavailable; the supplied screenshot was used as the reference.
+
+The workflow, examples, and evaluation cases here are independently written. The screenshot and full post are not redistributed. No endorsement is implied.
 
 No license has been designated yet. Public availability alone should not be interpreted as permission to redistribute.
